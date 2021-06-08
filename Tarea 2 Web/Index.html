@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="Estilos.css" media="all">
+    </head>
+    <body>
+        <h1>Calculadora</h1>
+        <br>
+
+        <div class="ContCalculadora">
+
+            <div class="CuerpoCalculadora">
+
+                <div class="ContenidoCalculadora">
+
+                    <div class="HistNumero">
+                        <label class="NumAHistorial" id="NumAHistorial"></label>
+                        <label class="OprHistorial" id="OprHistorial"></label>
+                        <label class="NumBHistorial" id="NumBHistorial"></label>
+                    </div>
+
+                    <div class="Pantalla">
+                        <input type="text" class="PantPrincipal" id="PantPrincipal">
+                        <label class="SignoOpr" id="SignoOpr"></label>
+                    </div>
+                    <div  class="ContBotones">
+                        <input type="button" value="1" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="2" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="3" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="+" id="btnMas" onclick="suma()" style='width:30px; height:25px'>
+                        <br>
+                        <input type="button" value="4" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="5" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="6" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="-" id="btnMenos" onclick="resta()" style='width:30px; height:25px'>
+                        <br>
+                        <input type="button" value="7" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="8" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="9" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="x" id="btnMultiplicacion" onclick="multiplicacion()" style='width:30px; height:25px'>
+                        <br>
+                        <input type="button" value="." name="btnNumero" class="btnPunto" style='width:30px; height:25px'>
+                        <input type="button" value="0" name="btnNumero" style='width:30px; height:25px'>
+                        <input type="button" value="c" onclick="reiniciarCal()" style='width:30px; height:25px'>
+                        <input type="button" value="/" id="btnDivision" onclick="division()" style='width:30px; height:25px'>
+                        <br>
+                        <input type="button" value="=" class="btnIgual" id="btnIgual" onclick="resultadofinal()" style='width:100px; height:25px'>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="Logica.js"></script>
+</html>

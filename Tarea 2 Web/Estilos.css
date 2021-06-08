@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 60px;
+}
+.ContCalculadora
+{
+    padding: 10px;
+    width: 450px;
+    margin: 0% auto;
+}
+
+.CuerpoCalculadora
+{
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: 2F2F2F;
+}
+
+.ContenidoCalculadora
+{
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.HistNumero
+{
+    padding: 10px;
+    margin: 10px 100px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-color: black;
+}
+.PantPrincipal
+{
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0px 20px 10px 5px;
+    font-weight: bold;
+    border-width: 4px;
+}
+.ContBotones
+{
+    text-align: center;
+}
+input[type=button]{
+    padding: 28px;
+    font-style: 20px;
+    font-weight: bold;
+    margin: 5px;
+    background-color: 0F0F0F;
+    color: white;
+}
+.btnIgual{
+    padding: 20px 68px !important;
+}
+.btnPunto{
+    padding: 28px 30px !important;
+}
